@@ -45,7 +45,7 @@
 
       <q-img class="absolute-bottom" src="../../../media/octank.png" style="height: 75px">
           <div class="absolute-bottom bg-transparent">
-            <q-avatar size="56px" class="q-mb-sm">
+            <q-avatar size="50px" class="q-mb-sm">
               <img src=../../../media/octank.png>
             </q-avatar>
           </div>
