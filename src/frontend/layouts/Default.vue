@@ -43,7 +43,7 @@
         </q-item>
       </q-list>
 
-      <q-img class="absolute-bottom" src="../../../media/octank.png" style="height: 100px">
+      <q-img class="absolute-bottom" src="../../../media/octank.png" style="height: 75px">
           <div class="absolute-bottom bg-transparent">
             <q-avatar size="56px" class="q-mb-sm">
               <img src=../../../media/octank.png>
