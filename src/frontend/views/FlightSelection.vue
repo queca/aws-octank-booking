@@ -238,6 +238,14 @@ export default {
             value: "BR"
           },
           {
+            label: "Ireland",
+            value: "IE"
+          },
+          {
+            label: "Netherlands",
+            value: "NL"
+          },
+          {
             label: "United Kingdom",
             value: "UK"
           },

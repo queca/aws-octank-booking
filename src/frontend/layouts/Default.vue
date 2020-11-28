@@ -42,6 +42,15 @@
           <q-item-main label="My Bookings" sublabel="Bookings" />
         </q-item>
       </q-list>
+
+      <q-img class="absolute-top" src="../../../media/octank.png" style="height: 150px">
+          <div class="absolute-bottom bg-transparent">
+            <q-avatar size="56px" class="q-mb-sm">
+              <img src=../../../media/octank.png>
+            </q-avatar>
+          </div>
+      </q-img>
+
     </q-layout-drawer>
 
     <q-page-container>
