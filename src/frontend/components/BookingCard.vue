@@ -29,6 +29,22 @@
           reference
         }}</span>
       </div>
+      <div class="q-body-2">
+        luggage:
+        <q-icon name="keyboard_arrow_left" size="1.3rem" />
+        <span class="text-primary" data-test="booking-reference">{{
+          reference
+        }}</span>
+      </div>
+      <div class="q-body-2">
+        Meal:
+        <q-icon name="restaurant" size="1.3rem" />
+        <span class="text-primary" data-test="booking-reference">{{
+          reference
+        }}</span>
+      </div>
+
+
     </div>
     <div class="row">
       <q-timeline responsive color="secondary" style="padding: 0 24px;">
@@ -67,17 +83,6 @@
           </q-list>
         </q-timeline-entry>
       </q-timeline>
-      <div
-      class="booking__modal--passenger booking__modal--highlighted text-center q-pa-md"
-    >
-
-    <div class="q-body-2">
-      <q-icon name="keyboard_arrow_right" size="1.3rem"/>luggage: 0
-    </div>
-    <div class="q-body-2">
-      <q-icon name="keyboard_arrow_right" size="1.3rem"/>luggage: 0Food: vegan
-    </div>
-
 
       <div
         class="booking__modal--ctas booking__modal--highlighted row inline full-width q-pl-lg"
