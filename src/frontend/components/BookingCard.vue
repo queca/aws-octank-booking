@@ -30,15 +30,13 @@
         }}</span>
       </div>
       <div class="q-body-2">
-        luggage:
-        <q-icon name="keyboard_arrow_left" size="1.3rem" />
+        <q-icon name="keyboard_arrow_left" size="1.3rem" color="secundary" />
         <span class="text-primary" data-test="booking-reference">{{
           reference
         }}</span>
       </div>
       <div class="q-body-2">
-        Meal:
-        <q-icon name="restaurant" size="1.3rem" />
+        <q-icon name="restaurant" size="1.3rem" color="secundary" />
         <span class="text-primary" data-test="booking-reference">{{
           reference
         }}</span>
