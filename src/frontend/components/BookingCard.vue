@@ -10,7 +10,7 @@
           >
             {{ departureIata }}
           </p>
-           
+          <q-icon name="keyboard_arrow_right" size="1.3rem" />
           <p class="booking__arrival--code" data-test="booking-arrival-code">
             {{ arrivalIata }}
           </p>
@@ -67,11 +67,18 @@
           </q-list>
         </q-timeline-entry>
       </q-timeline>
-      <div class="q-body-2">
-        <q-icon  name="luggage" />
-       Luggage:
-        <span class="text-primary" data-test="booking-reference">2</span>
-      </div>
+      <div
+      class="booking__modal--passenger booking__modal--highlighted text-center q-pa-md"
+    >
+
+    <div class="q-body-2">
+      <q-icon name="keyboard_arrow_right" size="1.3rem"/>luggage: 0
+    </div>
+    <div class="q-body-2">
+      <q-icon name="keyboard_arrow_right" size="1.3rem"/>luggage: 0Food: vegan
+    </div>
+
+
       <div
         class="booking__modal--ctas booking__modal--highlighted row inline full-width q-pl-lg"
       >
