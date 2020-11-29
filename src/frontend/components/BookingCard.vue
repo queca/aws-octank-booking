@@ -31,14 +31,14 @@
       </div>
       <div class="q-body-2">
         Luggage:
-        <q-icon name="luggage" size="1.3rem" color="secundary" />
+        <q-icon name="card_travel" size="1.3rem" class="flight__icon-caption" />
         <span class="text-primary" data-test="booking-reference">
           1
         </span>
       </div>
       <div class="q-body-2">
         Meal:
-        <q-icon name="restaurant" size="1.3rem" color="secundary" />
+        <q-icon name="restaurant" size="1.3rem" class="flight__icon-caption" />
         <span class="text-primary" data-test="booking-reference">
           vegan
         </span>
