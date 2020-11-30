@@ -28,6 +28,14 @@
       v-model="leftDrawerOpen"
       :content-class="$q.theme === 'mat' ? 'bg-grey-2' : null"
     >
+    <q-img class="absolute-bottom" src="../../../media/octank.png" style="height: 75px">
+      <div class="absolute-center bg-transparent">
+        <q-avatar size="50px" class="q-mb-sm">
+          <img src=../../../media/octank.png>
+        </q-avatar>
+      </div>
+    </q-img>
+      
       <q-list no-border link inset-delimiter>
         <q-item :to="{ name: 'home' }" exact>
           <q-item-side icon="home" />
@@ -43,13 +51,7 @@
         </q-item>
       </q-list>
 
-      <q-img class="absolute-bottom" src="../../../media/octank.png" style="height: 75px">
-          <div class="absolute-center bg-transparent">
-            <q-avatar size="50px" class="q-mb-sm">
-              <img src=../../../media/octank.png>
-            </q-avatar>
-          </div>
-      </q-img>
+
 
     </q-layout-drawer>
 
