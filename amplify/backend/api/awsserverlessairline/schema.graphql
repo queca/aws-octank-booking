@@ -24,6 +24,7 @@ type Flight
     arrivalAirportName: String!
     arrivalCity: String!
     arrivalLocale: String!
+    distance: String!
     ticketPrice: Int!
     ticketCurrency: String!
     flightNumber: Int!
