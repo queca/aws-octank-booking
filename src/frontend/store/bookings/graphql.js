@@ -36,7 +36,6 @@ export const getBookingByStatus = `query GetBookingByStatus(
         arrivalAirportName
         arrivalCity
         arrivalLocale
-        distance
         ticketPrice
         ticketCurrency
         flightNumber
