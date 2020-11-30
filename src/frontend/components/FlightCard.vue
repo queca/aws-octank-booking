@@ -122,13 +122,14 @@
                 </div>
                 <div class="row inline">
                   <div class="q-caption text-primary capitalize text-bold">
+                    <q-icon class="flight__icon-caption" name="multiple_stop" />
                     Flight distance
                   </div>
                   <div
                     class="q-ml-xs q-caption text-bold"
                     data-test="flight-distance"
                   >
-                    {{ details.distance }}miles
+                    {{ details.distance }} miles
                   </div>
                 </div>
 
