@@ -24,7 +24,6 @@ type Flight
     arrivalAirportName: String!
     arrivalCity: String!
     arrivalLocale: String!
-    distance: String
     ticketPrice: Int!
     ticketCurrency: String!
     flightNumber: Int!
@@ -48,7 +47,7 @@ type Booking
     id: ID!
     status: BookingStatus!
     outboundFlight: Flight! @connection
-    paymentToken:
+    paymentToken: String!
     checkedIn: Boolean
     customer: String
     createdAt: String
@@ -64,7 +63,7 @@ enum BookingStatus {
 input CreateBookingInput {
   id: ID
   status: BookingStatus
-  paymentToken:
+  paymentToken: String!
   checkedIn: Boolean
   customer: String
   bookingOutboundFlightId: ID!
