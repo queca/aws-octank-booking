@@ -40,7 +40,7 @@
         Meal:
         <q-icon name="restaurant" size="1.3rem" class="flight__icon-caption" />
         <span class="text-primary" data-test="booking-reference">
-          vegan
+          dairy-free
         </span>
       </div>
 

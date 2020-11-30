@@ -37,7 +37,7 @@ type Booking
     id: ID!
     status: BookingStatus!
     outboundFlight: Flight! @connection
-    paymentToken: String!
+    paymentToken:
     checkedIn: Boolean
     customer: String
     createdAt: String

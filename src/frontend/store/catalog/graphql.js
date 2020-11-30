@@ -26,6 +26,7 @@ export const getFlightBySchedule = `query GetFlightBySchedule(
       arrivalAirportName
       arrivalCity
       arrivalLocale
+      distance
       ticketPrice
       ticketCurrency
       flightNumber
@@ -49,6 +50,7 @@ export const getFlight = `query GetFlight($id: ID!) {
     arrivalAirportName
     arrivalCity
     arrivalLocale
+    distance
     ticketPrice
     ticketCurrency
     flightNumber

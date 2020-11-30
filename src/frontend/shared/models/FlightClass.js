@@ -16,6 +16,7 @@ export default class Flight {
    * @param {string} Flight.arrivalAirportCode - Airport IATA code (e.g MAD)
    * @param {string} Flight.arrivalAirportName - Airport known name (e.g Madrid)
    * @param {string} Flight.arrivalLocale - Timezone arrival city is (e.g Europe/Madrid)
+   * @param {string} Flight.distance - Distance from departure to arrival (e.g 2300 miles)
    * @param {number} Flight.ticketPrice - Flight Ticket price
    * @param {string} Flight.ticketCurrency - Monetary currency name for flight ticket (e.g EUR)
    * @param {number} Flight.flightNumber - Flight number
@@ -52,6 +53,7 @@ export default class Flight {
     arrivalAirportCode,
     arrivalAirportName,
     arrivalLocale,
+    distance,
     ticketPrice,
     ticketCurrency,
     flightNumber
@@ -67,6 +69,7 @@ export default class Flight {
     this.arrivalAirportCode = arrivalAirportCode;
     this.arrivalAirportName = arrivalAirportName;
     this.arrivalLocale = arrivalLocale;
+    this.distance = distance;
     this.ticketPrice = ticketPrice;
     this.ticketCurrency = ticketCurrency;
     this.flightNumber = flightNumber;

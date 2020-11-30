@@ -14,18 +14,19 @@ type Flight
         queryField: "getFlightBySchedule")
 {
     id: ID!
-    departureDate: String!
-    departureAirportCode: String!
-    departureAirportName: String!
-    departureCity: String!
-    departureLocale: String!
-    arrivalDate: String!
-    arrivalAirportCode: String!
-    arrivalAirportName: String!
-    arrivalCity: String!
-    arrivalLocale: String!
+    departureDate:
+    departureAirportCode:
+    departureAirportName:
+    departureCity:
+    departureLocale:
+    arrivalDate:
+    arrivalAirportCode:
+    arrivalAirportName:
+    arrivalCity:
+    arrivalLocale:
+    distance:
     ticketPrice: Int!
-    ticketCurrency: String!
+    ticketCurrency:
     flightNumber: Int!
     seatAllocation: Int # Disabling due to regression in amplify-cli 4.13.1: @deprecated(reason: "use seatCapacity instead. seatAllocation will be removed in the stable release.")
     seatCapacity: Int!
@@ -47,7 +48,7 @@ type Booking
     id: ID!
     status: BookingStatus!
     outboundFlight: Flight! @connection
-    paymentToken: String!
+    paymentToken:
     checkedIn: Boolean
     customer: String
     createdAt: String
@@ -63,7 +64,7 @@ enum BookingStatus {
 input CreateBookingInput {
   id: ID
   status: BookingStatus
-  paymentToken: String!
+  paymentToken:
   checkedIn: Boolean
   customer: String
   bookingOutboundFlightId: ID!
