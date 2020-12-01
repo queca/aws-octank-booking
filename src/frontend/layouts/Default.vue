@@ -28,8 +28,8 @@
       v-model="leftDrawerOpen"
       :content-class="$q.theme === 'mat' ? 'bg-grey-2' : null"
     >
-    <q-img class="absolute-center" src="../../../media/octank.png" style="height: 75px">
-      <div class="absolute-center bg-transparent">
+    <q-img class="relative-position"  src="../../../media/octank.png" style="height: 75px">
+      <div class= "relative-position bg-transparent" style="bottom: 10%;left:2;right:2;">
         <q-avatar size="50px" class="q-mb-sm">
           <img src=../../../media/octank.png>
         </q-avatar>
