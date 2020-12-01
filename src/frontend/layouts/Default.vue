@@ -29,7 +29,7 @@
       :content-class="$q.theme === 'mat' ? 'bg-grey-2' : null"
     >
     <q-img class="relative-position"  src="../../../media/octank.png" style="height: 75px">
-      <div class= "relative-position bg-transparent" style="top: 5%;left:12;right:12;">
+      <div class= "relative-position bg-transparent" style="top: 2%;left:12;right:12;">
         <q-avatar size="50px" class="q-mb-sm">
           <img src=../../../media/octank.png>
         </q-avatar>
