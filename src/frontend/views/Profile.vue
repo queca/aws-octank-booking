@@ -8,7 +8,7 @@
         >
           {{ fullName }}
         </div>
-        <div class="loyalty__heading--tier">
+        <!-- <div class="loyalty__heading--tier">
           <div
             class="q-title loyalty__heading-tier-name"
             data-test="loyalty-level"
@@ -16,8 +16,8 @@
             {{ loyalty.level || "bronze" }}
           </div>
         </div>
-      </div>
-      <div class="wrapper">
+      </div> -->
+      <!-- <div class="wrapper">
         <div class="row loyalty__progress">
           <div class="col-7 loyalty__progress--points">
             <div class="q-display-1 loyalty__points" data-test="loyalty-points">
@@ -35,7 +35,7 @@
             <div class="q-title text-primary text-bold">Next Tier Progress</div>
             <q-progress :percentage="loyalty.percentage" color="secondary" />
           </div>
-        </div>
+        </div> -->
         <div class="row">
           <div class="profile__preferences--heading col-12 text-left q-mt-lg">
             <q-toolbar color="grey-1 text-black">
