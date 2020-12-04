@@ -127,12 +127,12 @@
                   <div
                     class="q-ml-xs q-caption text-bold"
                     data-test="flight-distance"
-                  > -->
+                  >
                     {{ details.distance }} miles
                   </div>
                 </div>
 
-              </div>
+              </div> -->
             </div>
           </q-list-header>
         </q-list>
