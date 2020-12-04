@@ -120,14 +120,14 @@
                     #{{ details.flightNumber }}
                   </div>
                 </div>
-                <div class="row inline">
+                <!-- <div class="row inline">
                   <div class="q-caption text-primary capitalize text-bold">
                     Flight distance
                   </div>
                   <div
                     class="q-ml-xs q-caption text-bold"
                     data-test="flight-distance"
-                  >
+                  > -->
                     {{ details.distance }} miles
                   </div>
                 </div>
