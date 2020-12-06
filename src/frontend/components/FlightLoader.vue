@@ -1,6 +1,6 @@
 <template>
   <content-loader
-    :speed="2"
+    :speed="1"
     primaryColor="#3c9cf4"
     secondaryColor="#ffbb3e"
     className="flight__loader"

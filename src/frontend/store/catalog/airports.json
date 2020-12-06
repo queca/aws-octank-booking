@@ -2874,6 +2874,12 @@
         "city": "Salvador"
     },
     {
+        "name": "Gilberto Freyre International Airport",
+        "code": "REC",
+        "country": "BR",
+        "city": "Recife"
+    }, 
+    {
         "name": "Comodoro Arturo Merino Benítez International Airport",
         "code": "SCL",
         "country": "CL",
