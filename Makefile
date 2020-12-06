@@ -23,14 +23,14 @@ deploy: ##=> Deploy services
 	$(MAKE) deploy.shared-lambda-layers
 	$(MAKE) deploy.payment
 	$(MAKE) deploy.booking
-	$(MAKE) deploy.loyalty
+	# $(MAKE) deploy.loyalty
 ## Enable the deploy.perftest if you need to deploy the performance test stack
 #	$(MAKE) deploy.perftest 
 
 delete: ##=> Delete services
 	$(MAKE) delete.booking
 	$(MAKE) delete.payment
-	$(MAKE) delete.loyalty
+	# $(MAKE) delete.loyalty
 	$(MAKE) delete.shared-lambda-layers
 ## Enable the delete.perftest if you need to delete the performance test stack
 #	$(MAKE) delete.perftest
@@ -41,8 +41,8 @@ delete.booking: ##=> Delete booking service
 delete.payment: ##=> Delete payment service
 	$(MAKE) -C src/backend/payment delete
 
-delete.loyalty: ##=> Delete loyalty service
-	$(MAKE) -C src/backend/loyalty delete
+# delete.loyalty: ##=> Delete loyalty service
+# 	$(MAKE) -C src/backend/loyalty delete
 
 delete.perftest:
 	$(MAKE) -C src/perf-tests delete
@@ -56,8 +56,8 @@ deploy.booking: ##=> Deploy booking service using SAM
 deploy.payment: ##=> Deploy payment service using SAM
 	$(MAKE) -C src/backend/payment deploy
 
-deploy.loyalty: ##=> Deploy loyalty service using SAM and TypeScript build
-	$(MAKE) -C src/backend/loyalty deploy
+# deploy.loyalty: ##=> Deploy loyalty service using SAM and TypeScript build
+# 	$(MAKE) -C src/backend/loyalty deploy
 
 deploy.perftest: ##=> Deploying Gatling components for performance testing
 	$(MAKE) -C src/perf-tests deploy
