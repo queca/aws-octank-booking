@@ -1,8 +1,8 @@
 <template>
   <content-loader
     :speed="2"
-    primaryColor="#861c6a"
-    secondaryColor="#fa3336"
+    primaryColor="#3c9cf4"
+    secondaryColor="#ffbb3e"
     className="flight__loader"
     ariaLabel="Loading flights..."
   >
