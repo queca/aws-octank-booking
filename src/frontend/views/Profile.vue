@@ -168,16 +168,16 @@ export default {
     // however, the component doesn't stop from rendering asynchronously
     // this guarantees we attempt talking to Loyalty service
     // if our authentication guards && profile module have an user in place
-    try {
-      if (this.isAuthenticated) {
-        await this.$store.dispatch("loyalty/fetchLoyalty");
-      }
-    } catch (error) {
-      console.error(error);
-      this.$q.notify(
-        `Error while fetching Loyalty - Check browser console messages`
-      );
-    }
+    // try {
+    //   if (this.isAuthenticated) {
+    //     await this.$store.dispatch("loyalty/fetchLoyalty");
+    //   }
+    // } catch (error) {
+    //   console.error(error);
+    //   this.$q.notify(
+    //     `Error while fetching Loyalty - Check browser console messages`
+    //   );
+    // }
   }
 };
 </script>
